@@ -1,0 +1,50 @@
+body{
+	background-image: url(../images/sky.png);
+/*background-color: blue;*/
+background-size: cover;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-repeat: no-repeat;
+color: #fff; /*white*/
+font-family: 'Oswald', sans-serif;
+/*height:100vh;*/
+}
+
+h1{
+	font-size: 25px;
+	margin-bottom: 0;
+	background-color: rgba(0,0,0,0.5); /*off-black*/
+	text-transform: uppercase; 
+	letter-spacing: 3px;
+}
+
+h2 {
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	color: white;
+}
+
+#me {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	border-width: 5px;
+	border-style: solid;
+	border-color: white;
+	margin-top: 50px;
+}
+
+.bio {
+	width: 100%;
+	font-size: 18px;
+	line-height: 1.5;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.container {
+	width: 500px;
+	margin: 0 auto;
+	text-align: center;
+
+}
